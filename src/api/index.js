@@ -1,4 +1,4 @@
-const url = '//dyxuan.top/api';
+const url = 'https://dyxuan.top/api';
 export default {
     getWeather:url+'/getweather'
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Weather from './component/weather';
 import google from './google2.png'
 import baidu from './baidu.png'
+import Calendar from 'react-calendar'
 
 class App extends Component {
 	constructor() {
@@ -67,8 +68,13 @@ class App extends Component {
 					</div>
 					<div className="app-person">
 						{/* <div className="wea-wrap"></div> */}
-						<Weather></Weather>
-						<Weather></Weather>
+						<div>
+							<Weather></Weather>
+						</div>
+						<div>
+							<Calendar value={new Date} calendarType="US"></Calendar>
+						</div>
+						{/* <Weather></Weather> */}
 					</div>
 				</div>
 			</div>

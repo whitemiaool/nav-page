@@ -117,3 +117,14 @@ img {
   from {transform:translateY(-50%) rotate(0deg);}
   to {transform:translateY(-50%) rotate(360deg)}
 }
+
+.react-calendar__navigation {
+  height: 25px !important;
+  margin-bottom: 0px !important;
+}
+.react-calendar {
+  width: 220px !important;
+  height: 235px;
+  margin: 10px;
+  border: none !important;
+}
