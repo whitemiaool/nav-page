@@ -1,32 +1,173 @@
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="full-screen" content="true">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+    <title>动画预览</title>
+</head>
 
-    <title>笛外导航</title>
-  </head>
-  <body>
+<body>
+    <div class="video-wrap">
+        <div class="video-item" style="z-index:1"><video poster="https://storage.jd.com/open-chat-m/ddanimation/v20180918/static/p1.jpg"
+                id="testv" width="100%" webkit-playsinline="true" playsinline="true" x5-video-player-type="h5" style="opacity:1"
+                x5-video-player-fullscreen="true" class="video" data-list="0" preload="auto">
+                <source src="https://storage.jd.com/open-chat-m/ddanimation/v20180918/ani/11.mp4?a=123" type="video/mp4">您的浏览器不支持
+                HTML5 video 标签。</video>
+            <div class="oneloop">
+                <div class="onebg"></div>
+                <div class="oneone"></div>
+                <div class="onetwo"></div>
+            </div>
+            <div class="word"></div>
+        </div>
+        <div class="video-item" style="z-index:1"><video width="100%" webkit-playsinline="true" playsinline="true"
+                poster="https://storage.jd.com/open-chat-m/ddanimation/v20180918/static/p2.jpg" x5-video-player-type="h5"
+                x5-video-player-fullscreen="true" class="video" data-list="1" preload="auto" muted>
+                <source src="https://storage.jd.com/open-chat-m/ddanimation/v20180918/ani/22.mp4" type="video/mp4"></video>
+            <div class="word"></div>
+        </div>
+        <div class="video-item" style="z-index:1"><video width="100%" webkit-playsinline="true" playsinline="true"
+                poster="https://storage.jd.com/open-chat-m/ddanimation/v20180918/static/p3.jpg" x5-video-player-type="h5"
+                x5-video-player-fullscreen="true" class="video" data-list="2" preload="auto" muted>
+                <source src="https://storage.jd.com/open-chat-m/ddanimation/v20180918/ani/33.mp4" type="video/mp4"></video>
+            <div class="word"></div>
+        </div>
+        <div class="video-item" style="z-index:1"><video width="100%" webkit-playsinline="true" playsinline="true"
+                poster="https://storage.jd.com/open-chat-m/ddanimation/v20180918/static/p4.jpg" x5-video-player-type="h5"
+                x5-video-player-fullscreen="true" class="video" data-list="3" preload="auto" muted>
+                <source src="https://storage.jd.com/open-chat-m/ddanimation/v20180918/ani/44.mp4" type="video/mp4"></video>
+            <div class="cww">
+                <div class="bgx"></div>
+                <div class="bgt"></div>
+                <div class="nx">
+                    <div class="br">
+                        <div class="bw bw1">
+                            <div class="blx blx1">
+                                <div class="ballx ballx1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nx">
+                    <div class="br">
+                        <div class="bw bw2">
+                            <div class="blx blx2">
+                                <div class="ballx ballx2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nx">
+                    <div class="br">
+                        <div class="bw bw3">
+                            <div class="blx blx3">
+                                <div class="ballx ballx3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nx">
+                    <div class="br">
+                        <div class="bw bw4">
+                            <div class="blx blx4">
+                                <div class="ballx ballx4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dotx1">
+                    <div class="dot dot1"></div>
+                    <div class="dot dot2"></div>
+                    <div class="dot dot3"></div>
+                    <div class="dot dot4"></div>
+                </div>
+                <div class="dotx2">
+                    <div class="dot dot5"></div>
+                    <div class="dot dot6"></div>
+                    <div class="dot dot7"></div>
+                </div>
+                <div class="dotx3">
+                    <div class="dot dot8"></div>
+                    <div class="dot dot9"></div>
+                    <div class="dot dot10"></div>
+                </div>
+            </div>
+            <div class="word"></div>
+        </div>
+    </div>
+    <div class="modal"></div>
+    <div class="line"></div>
+    <div class="line lineone" style="width:4px"></div>
+    <div class="share"><a class="l-l s-l" href="void 0">点击立刻分享</a></div>
+    <div class="loading">
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw5 bwl">
+                    <div class="blx blx5">
+                        <div class="ballx ballx5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw6 bwl">
+                    <div class="blx blx6">
+                        <div class="ballx ballx6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw7 bwl"></div>
+            </div>
+        </div>
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw8 bwl"></div>
+            </div>
+        </div>
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw9 bwl"></div>
+            </div>
+        </div>
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw10 bwl"></div>
+            </div>
+        </div>
+        <div class="nx nxl">
+            <div class="br brl">
+                <div class="bw bw11 bwl"></div>
+            </div>
+        </div>
+        <div class="l-l l-state">0%</div>
+        <div class="l-l l-loading">Loading</div>
+        <div class="l-l startV">开启时光之旅</div>
+        <canvas id="space"></canvas>
+    </div>
+    <div class="slide-t slide-t-t">
+        <div class="s-wrap s-wrap-t">
+            <div class="s-start"></div>
+            <div class="s-line"></div>
+            <div class="s-start"></div>
+        </div>
+    </div>
+    <div class="slide-t slide-t-b">
+        <div class="s-wrap s-wrap-b">
+            <div class="s-start"></div>
+            <div class="s-line"></div>
+            <div class="s-start"></div>
+        </div>
+    </div>
+    <style></style><audio src="https://storage.jd.com/open-chat-m/ddanimation/v20180918/ani/bg.mp3" preload="auto" loop></audio>
+</body>
 
-    <div id="root"></div>
-  <script>
-      // 检查浏览器是否对 serviceWorker 有原生支持
-      if ('serviceWorker' in navigator) {
-        // 有原生支持时，在页面加载后开启新的 Service Worker 线程，从而优化首屏加载速度
-        window.addEventListener('load', function() {
-        // register 方法里第一个参数为 Service Worker 要加载的文件；第二个参数 scope 可选，用来指定 Service Worker 控制的内容的子目录
-          navigator.serviceWorker.register('./sw.js').then(function(registration) {
-            // Service Worker 注册成功
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }).catch(function(err) {
-            // Service Worker 注册失败
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        });
-      }
-    </script>
-  </body>
 </html>
